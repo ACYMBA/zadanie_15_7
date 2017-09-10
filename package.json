@@ -1,0 +1,23 @@
+{
+  "name": "kodilla_zad_15_7",
+  "version": "1.0.0",
+  "description": "none",
+  "main": "script.js",
+  "scripts": {
+    "test": "test",
+    "start": "babel --plugins transform-react-jsx script.js --out-file script-compiled.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "grunt"
+  ],
+  "author": "albert",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1"
+  }
+}
